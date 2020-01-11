@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Kaju Curry Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Kaju Curry Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/kaju-masala-recipe-1.jpg" alt="Kaju Curry">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>1 cup cashews</li>
+                        <li>2 cup frozen peas</li>
+                        <li>2 tablespoon refined oil</li>
+                        <li>1 teaspoon garlic</li>
+                        <li>1 teaspoon red chilli powder</li>
+                        <li>1 teaspoon fenugreek leaves ( methi)</li>
+                        <li>1 cup fresh cream</li>
+                        <li>1 tablespoon ghee</li>
+                        <li>2 cup chopped tomato</li>
+                        <li>1 bay leaf</li>
+                        <li>1 teaspoon ginger paste</li>
+                        <li>1 teaspoon garam masala powder</li>
+                        <li>salt as required</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vYxpAcUdduM?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->    
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Kaju Curry</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Take a non-stick pan and add 1 teaspoon ghee to it and grease it well. Add the cashew nuts and saute them on a low flame for some time. Keep them aside to cool down.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Mix the tomatoes along with 1 cup of water in a deep non-stick pan. Cook on a medium flame for about 10 minutes. Keep it aside to cool down.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Now, add this mixture and cashew nuts in a mixer and blend them to form a smooth paste. Keep it aside for sometime. Heat the oil in a deep non-stick pan on a medium flame and add the bay leaf, garlic paste and ginger paste to it. Saute it on a medium flame for about a minute.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Add chili powder, garam masala, dried fenugreek leaves to the tomato-cashew nut mixture. Cook for some time.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>Finally, add fresh cream, green peas and 1 cup of water to the mix. Cook on a medium flame for 5 minutes. Add the crispy cashew nuts on it and stir on a medium flame for 2 minutes. Serve hot with love.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>    
+    </body>
+</html>

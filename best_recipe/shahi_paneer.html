@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Shahi Paneer Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Shahi Paneer Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2">
+                <img src="img/shahi-paneer-recipe.jpg" alt="Shahi Paneer">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>500 gm paneer</li>
+                        <li>1 inch ginger</li>
+                        <li>6 medium tomato</li>
+                        <li>1 teaspoon red chilli</li>
+                        <li>1 teaspoon garam masala powder</li>
+                        <li>2 pinches salt</li>
+                        <li>2 onion</li>
+                        <li>3 green chilli</li>
+                        <li>3 green cardamom</li>
+                        <li>6 tablespoon ghee</li>
+                        <li>4 tablespoon tomato ketchup</li>
+                        <li>1 cup water</li>
+                        <li>1 handful coriander leaves</li>
+                        <li>1/2 cup yoghurt (curd)</li>
+                        <li>1 cup milk</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/B3H2RDSW9V8?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make shahi paneer</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>To prepare this creamy shahi paneer recipe, chop the onion, green chillies, tomatoes along with ginger and coriander leaves separately. Now in a bowl, add the curd and whisk it well. If you are in a jiffy you can use tomato puree instead of using chopped tomatoes. To make this recipe more delicious you can dry roast the species separately and then add it to the gravy, this will make your recipe more aromatic.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Next, put a pan on medium flame and heat 3 tablespoons of ghee in it. Add the chopped onions, ginger, green chillies along with green cardamoms for 4 to 5 minutes. Add the chopped tomatoes and cover the pan with a lid. Cook for about 8 to 10 minutes. Then add the beaten curd and cook for another 5 minutes, and pour a cup of water in the pan and cook for a minute. When the gravy is cooked, let it cool at room temperature. When it's cool enough, add it to a mixer jar and blend till smooth and keep aside.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Now, heat the remaining ghee in another pan and add the ground gravy in it along with red chilli powder, garam masala powder, tomato ketchup or sauce and salt. Bring it to a boil or till the gravy turns thickens and add the paneer cubes and milk in it. Cook for another 3 to 5 minutes. While the gravy is being cooked, cut the paneer in cubes and keep aside till required. Take two cubes and grate them for garnishing. Then garnish this delicious north Indian recipe with chopped coriander leaves and grated paneer. If you like it creamy you can add some fresh cream this will not only make your dish look scrumptious, but at the same time it will add on to the taste. Serve hot with roomali roti or naan and enjoy!</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>
+    </body>
+</html>
