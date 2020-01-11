@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Gujiya Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Gujiya Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/gujia.jpg" alt="Gujiya">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>4 cup all purpose flour</li>
+                        <li>200 gm khoya</li>
+                        <li>1 cup sugar</li>
+                        <li>1 tablespoon powdered green cardamom</li>
+                        <li>1 teaspoon finely chopped almonds</li>
+                        <li>1/4 cup semolina</li>
+                        <li>1 1/2 cup ghee</li>
+                        <li>1/4 cup Water</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/t3FH6a0wI1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                            
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Gujiya</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>This popular Gujiya recipe can be prepared by following some simple steps given below: Take a bowl, add flour and water to make a soft dough. To accentuate the taste of this traditional recipe add some ghee.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>To make the dough soft, knead well by sprinkling some water. Once the dough attains a perfect consistency, keep it aside for 60 minutes. In the meantime, take a deep fry pan then saute khoya and semolina till it turns golden and keep it aside to cool.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Add sugar, green cardamom and soaked almonds to the cooled khoya and mix well. To make this stuffing even more delicious add some dry roasted nuts and raisins, this will add a nice crunch to the Gujiya recipe. Moving on to the next step, take two drops of ghee or refined oil and spread it well on your palms.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Then make small round balls from the dough and make a cup-like-space in the balls to fill the sumptuous stuffing. After adding the filling seal corners in such a way that it secures the stuffing, while frying the Gujiya. Roll the sides as per your choice of pattern.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>Heat ghee in a pan over medium flame. Fry the Gujiyas till golden brown from all the sides and serve it with some Thandai and spicy pakoras. Garnish it with some saffron strands and crushed pistachios. You can also serve it with some Rabri.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                            
+    </body>
+</html>

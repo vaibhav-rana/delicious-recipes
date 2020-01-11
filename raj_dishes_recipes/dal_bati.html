@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Dal Bati Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Dal Bati Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/dal_bati_churma.jpg" alt="Dal Bati">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>1 cup wheat flour</li>
+                        <li>1/2 teaspoon powdered red chilli</li>
+                        <li>1/4 teaspoon coriander powder</li>
+                        <li>2 pinches salt</li>
+                        <li>1/4 inch grated ginger</li>
+                        <li>1/4 teaspoon mustard seeds</li>
+                        <li>1/4 teaspoon garam masala powder</li>
+                        <li>1/8 teaspoon turmeric</li>
+                        <li>1/2 tablespoon lemon juice</li>
+                        <li>1/2 tablespoon coriander leaves</li>
+                        <li>1/4 teaspoon cumin seeds</li>
+                        <li>2 cup water</li>
+                        <li>1/2 tablespoon semolina</li>
+                        <li>1 tablespoon ghee</li>
+                        <li>1 pinch salt</li>
+                        <li>1/4 cup soaked,washed &amp; dried green moong dal</li>
+                        <li>1/2 tablespoon ghee</li>
+                        <li>1/2 tablespoon washed &amp; dried chana dal</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3VnUqfOdkHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Dal Bati</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>To prepare the baatis, take a glass bowl and add wheat flour with rawa, salt and ghee. Using your hands, knead a very stiff dough with warm water. Shape the dough in the size of a ping pong ball. Meanwhile, heat a gas tandoor and roast the dough balls on low heat for sometime. Make sure they are brown and crusty.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Then break open from the top and pour some fresh ghee on the halves. Then to prepare the daal, wash both the dals together add 1 cup water and a pinch of turmeric. Pressure cook the dals till 2 whistles. Allow the cooker to cool and remove the dal.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Mix all the spice powders in 1/2 cup water to make thin paste. Put ghee in a pan over medium flame, add the cumin and coriander seeds. Once they splutter, add ginger. Then add the paste of spice powders and fry for a minute, add the cooked dal.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Then add the remaining water and stir well. Bring it to a boil. To get that extra zing, add lemon juice in it, check and add salt if required. Garnish with chopped coriander. Serve hot with freshly prepared baatis and serve it hot with daal.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                    
+    </body>
+</html>

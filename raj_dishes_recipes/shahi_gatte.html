@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Shahi Gatte Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Shahi Gatte Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/shahi_gatte.jpg" alt="Shai Gatte">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>2 cup gram flour (besan)</li>
+                        <li>2 tablespoon refined oil</li>
+                        <li>2 inches ginger</li>
+                        <li>2 pinches asafoetida</li>
+                        <li>2 teaspoon red chilli powder</li>
+                        <li>2 teaspoon powdered turmeric</li>
+                        <li>salt as required</li>
+                        <li>water as required</li>
+                        <li>2 cup yoghurt(curd)</li>
+                        <li>2 tablespoon ghee</li>
+                        <li>2 teaspoon black mustard seeds</li>
+                        <li>1 teaspoon garam masala powder</li>
+                        <li>2 teaspoon cumin seeds</li>
+                        <li>4 green chillies</li>
+                        <li>black pepper as required</li>
+                        <li>1 teaspoon coriander powder</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0sxjWrSWZxs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                                        
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Shahi Gatte</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>To prepare this delicious Rajasthani specialty, take a large bowl and mix together gram flour, 1 teaspoon turmeric powder, 1 teaspoon red chilli powder, salt and a pinch of asafoetida. Next, add two and a half tablespoons of ghee.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Now, apply some ghee on your palm and knead the mixture into a firm dough using required amount of water. When done, divide the dough into equal portions and roll each portion in the form of cylindrical rolls.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Meanwhile, put a kadhai on high flame and heat water in it. Bring it to a boil and add the besan rolls in it. Cook the rolls until they are light and soft and they start floating in water. In a similar way, cook all the remaining rolls and then, switch off the burner. Transfer them to a plate to cool lightly.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Now, heat oil in another kadhai on medium flame and add black mustard seeds in it. Saute them until they crackle. Then, add cumin seeds and cook them until they splutter. Afterwards, add asafoetida in the oil and cook for a few seconds.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>Meanwhile, add ginger and green chilies in a blender jar and blend them into a fine paste. Add the prepared paste to the kadhai and then, add the remaining red chilli powder along with the remaining turmeric powder in the kadhai. Saute the ginger-garlic paste till the raw smell goes away.</p>
+            </div>
+            <div class="step">
+                <h3>Step 6</h3>
+                <p>Now, add garam masala, coriander powder and salt as per your taste to the kadhai and stir to avoid burning the masala. Add a cup of water in the kadhai and stir well to mix with the spices. Meanwhile, beat the curd until it is soft and ensure that no lumps are formed.</p>
+            </div>
+            <div class="step">
+                <h3>Step 7</h3>
+                <p>Add curd to the kadhai and stir to incorporate the masala to the curd. Make sure that the consistency of gravy is thin and cook for about 6-7 minutes. Meanwhile, cut the besan rolls roughly into small pieces.</p>
+            </div>
+            <div class="step">
+                <h3>Step 8</h3>
+                <p>When, the speck of oil starts to appear on the surface of gravy, add all the cut rolls into it and cook for a while. Bring it to a boil and reduce the flame. Let the rolls simmer in the gravy for 5-10 minutes.</p>
+            </div>
+            <div class="step">
+                <h3>Step 9</h3>
+                <p>Gatte Ki Sabzi is ready now, transfer the cooked dish to a serving bowl and serve hot with chapatis or steamed rice.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                            
+    </body>
+</html>

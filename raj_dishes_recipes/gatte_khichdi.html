@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Gatte Khichdi Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Gatte Khichdi Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/gatte_ki_khichdi.jpg" alt="Gatte Khichdi">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>200 gm basmati rice</li>
+                        <li>4 clove1/2 teaspoon powdered red chilli</li>
+                        <li>10 cashews</li>
+                        <li>1/4 teaspoon cumin seeds</li>
+                        <li>5 gatte</li>
+                        <li>2 bay leaf</li>
+                        <li>2 tablespoon ghee</li>
+                        <li>2 pinches salt</li>
+                        <li>3/4 teaspoon black pepper</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yfiOK9RXuFE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                    
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Gatte Khichdi</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Wash and soak rice for 15-20 mins. Boil water in a pan. Put the rice in boiling water and cook uncovered on low heat until the rice becomes firm but tender. Do not overcook the rice otherwise the rice grains will get mushy. Each grain of rice should be separate.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>When rice is done, sieve it and cool it completely. Heat ghee in a pan</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>When ghee becomes slightly hot, add cashew nuts and toss it on medium heat till it turns light brown in colour and keep aside.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>In the same pan, add boiled and chopped gatta and shallow fry on medium heat till it turns light brown and keep aside.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>In the remaining ghee add cloves, bay leaf and fry for few seconds. If you require more ghee then add it accordingly.</p>
+            </div>
+            <div class="step">
+                <h3>Step 6</h3>
+                <p>Now add cooked rice, fry cashew nuts, fried Gatta into it and mix it well. Add salt and black pepper and mix well.</p>
+            </div>
+            <div class="step">
+                <h3>Step 7</h3>
+                <p>If rice has become dry then add 2-3 tsp of water and mix it well. Cover the lid and cook for a min.Gatta rice is ready and can be served with any Indian curry.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                        
+    </body>
+</html>

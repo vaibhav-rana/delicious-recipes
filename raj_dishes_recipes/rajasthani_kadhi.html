@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Kadhi Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>kadhi Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/rajasthani_kadi.jpg" alt="Rajasthani Kadhi">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>1/2 cup Thick sour curd</li>
+                        <li>1/4 teaspoon mustard seeds</li>
+                        <li>2 chopped red chilli</li>
+                        <li>1/8 teaspoon powdered turmeric</li>
+                        <li>2 pinches salt</li>
+                        <li>1/2 cup Water</li>
+                        <li>1 pinch powdered asafoetida</li>
+                        <li>1 leaf bay leaf</li>
+                        <li>1/2 tablespoon chilli garlic paste</li>
+                        <li>1/2 tablespoon ghee</li>
+                        <li>3/4 tablespoon Gram flour(besan)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qxF1gGNeF8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                                    
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Kadhi</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>In a bowl mix besan, yoghurt and water. Strain and add salt and turmeric powder.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Transfer the mixture to a pan over moderate flame and bring to a boil. Stir constantly and cover the pan with a lid.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Reduce the flame and cook for around 2 minutes.Heat ghee in another pan over moderate flame. Add asafoetida, bay leaf, mustard seeds, red chillies and salt.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Sauté for a few seconds and add the red chilli paste (made by soaking red chillies in water and later blended in a blender).Simmer for a minute or two, and add this to the yoghurt mixture and stir well.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>Cook for around 30 seconds and remove the pan from the flame.Serve hot with rice and vegetables of your choice.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                            
+    </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Boondi Raita Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Boondi Raita Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/bundi_raita.jpg" alt="Boondi Raita">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>100 gm gram flour(besan)</li>
+                        <li>salt as required</li>
+                        <li>1 handful pomegranate seeds</li>
+                        <li>2 tablespoon refined oil</li>
+                        <li>2 cup yoghurt(curd)</li>
+                        <li>1/2 teaspoon red chilli powder</li>
+                        <li>1 pinch garam masala powder</li>
+                        <li>1 handful chopped coriander leaves</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pFeB9N64TNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->            
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Boondi Raita</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Boondi Raita is a perfect summer delicacy, which can be easily prepared at home. Here’s how you can prepare this dish by following some simple steps given below. Take a glass bowl and add gram flour and water. Mix all the ingredients well. Ensure that the batter is thick and pourable.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Take a kadhai and heat oil on high flame. Add the batter to a boondi plate placed over the hot oil. Take extra care so that the hot oil does not spill over. Fry until golden brown. Remove, the boondi and drain excess oil.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Take another bowl, add chilled curd, sugar, red chili powder, black pepper powder, salt, roasted cumin powder, chopped coriander leaves and top it with the crispy boondis. Garnish with chopped green chilies and coriander leaves and your raita is ready to serve.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                    
+    </body>
+</html>
