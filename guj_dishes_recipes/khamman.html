@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Khamman Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Khamman Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/khamman.jpg" alt="Khamman">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>Gram flour (besan) sieved 2 cups</li>
+                        <li>Yogurt beaten 1 cup</li>
+                        <li>Salt to taste</li>
+                        <li>Turmeric powder 1/2 teaspoon</li>
+                        <li>Green chilli-ginger paste 1 teaspoon</li>
+                        <li>Oil 2 tablespoons</li>
+                        <li>Lemon juice 1 tablespoon</li>
+                        <li>Soda bicarbonate 1 teaspoon</li>
+                        <li>Mustard seeds 1 teaspoon</li>
+                        <li>Fresh coriander leaves chopped 2 tablespoons</li>
+                        <li>Coconut scraped 1/2 cup</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1lNejOK_ufM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                  
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Khamman</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Take gram flour in a bowl. Add yogurt and approximately one cup of warm water and mix. Avoid lumps. Add salt and mix again.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Leave it aside to ferment for three to four hours. When gram flour mixture has fermented, add turmeric powder and green chilli-ginger paste. Mix. Heat the steamer. Grease a thali.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>In a small bowl take lemon juice, soda bicarbonate, one teaspoon of oil and mix. Add it to the batter and whisk briskly. Pour batter into the greased thali and place it in the steamer.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Cover with the lid and steam for ten minutes. When a little cool, cut into squares and keep in a serving bowl/plate.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>Heat remaining oil in a small pan. Add mustard seeds. When the seeds begin to crackle, remove and pour over the dhoklas.</p>
+            </div>
+            <div class="step">
+                <h3>Step 6</h3>
+                <p>Serve, garnished with chopped coriander leaves and scraped coconut.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>            
+    </body>
+</html>

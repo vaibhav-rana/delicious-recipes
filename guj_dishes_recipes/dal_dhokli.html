@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Dal Dhokli Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Dal Dhokli Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/dal_dhokli.jpg" alt="Dal Dhokli">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>1/2 cup boiled green moong dal</li>
+                        <li>1/2 teaspoon red chilli powder</li>
+                        <li>salt as required</li>
+                        <li>2 teaspoon curry leaves</li>
+                        <li>1/4 teaspoon cumin seeds</li>
+                        <li>1 tablespoon ghee</li>
+                        <li>1/4 teaspoon cumin seeds</li>
+                        <li>1/4 teaspoon garam masala powder</li>
+                        <li>1/2 tablespoon chopped coriander leaves</li>
+                        <li>1/8 teaspoon turmeric</li>
+                        <li>1/4 teaspoon cumin powder</li>
+                        <li>1/2 bay leaf</li>
+                        <li>1 dash asafoetida</li>
+                        <li>1 tablespoon refined oil</li>
+                        <li>1/8 teaspoon turmeric</li>
+                        <li>1/2 teaspoon refined oil</li>
+                        <li>1 tablespoon coriander powder</li>
+                        <li>1/4 cup wheat flour</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/g3TJmQA5XBg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->      
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Dal Dhokli</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>This Gujarati delicacy is a perfect is a amalgamation of spices and dal. Here’s a simple recipe that you can prepare with easily available ingredients. Take a large bowl and mix turmeric, jeera powder, chopped coriander, salt and little oil with wheat flour. Add enough water and knead the flour like a chapati dough, make small balls of dough and roll out like chapatis. Cut them into even sized square pieces. If you are fond of spicy food, then you can add a pinch of red chilli powder while kneading the dough, this will accentuate the taste of Dhokli by giving it a spicy touch.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Then take a broad vessel and heat plenty of water in it. Once the water starts to boil, add the dhokli pieces and cook till they become just soft in texture. Strain excess water and keep dhokli pieces separately.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Then pressure cook the dal in enough water till just soft. Then heat oil and ghee in a kadhai over low-medium flame. When it becomes hot, add bay leaf, curry leaves, cumin seeds and asafoetida powder to it. Stir the spices for a minute and add coriander powder, red chilli powder, jeera powder, and turmeric powder to the ground spices.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Mix all the ingredients quickly and pour the cooked dal over them and salt. Cook for a few minutes, add dhokli pieces at the end and boil for about 1-2 minutes. Just before serving, add melted ghee on top of dal to give it a more delicious flavour. Pair it with hot chapatis and you're done for the day. You can also pair this dish with plain rice, pulao or even veg biryani.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>    
+    </body>
+</html>

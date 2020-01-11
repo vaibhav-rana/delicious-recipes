@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Handvo Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Handvo Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/handvo.jpg" alt="Handvo">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>150 gm bottle gourd</li>
+                        <li>1/2 cup rice</li>
+                        <li>50 gm toor daal</li>
+                        <li>2 pinches baking soda</li>
+                        <li>salt as required</li>
+                        <li>1 teaspoon cumin seeds</li>
+                        <li>1 teaspoon mustard seeds</li>
+                        <li>1 green chilli</li>
+                        <li>2 tablespoon curry leaves</li>
+                        <li>150 gm yoghurt (curd)</li>
+                        <li>1 tablespoon urad dal</li>
+                        <li>1/4 cup chana dal</li>
+                        <li>2 pinches powdered turmeric</li>
+                        <li>3 tablespoon vegetable oil</li>
+                        <li>1/2 teaspoon lemon juice</li>
+                        <li>1/2 teaspoon ginger paste</li>
+                        <li>2 teaspoon black sesame seeds</li>
+                        <li>2 pinches asafoetida</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fVJDFGwjpU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->              
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Handvo</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>To prepare this popular Gujarati recipe, first you need to prepare the Handvo batter. If you already have that, you can skip this step. Now, to prepare the batter, wash and soak the rice and all the dals together in enough water for 3-4 hours. After the soaking period, drain the extra water and add the rice and dals to a mixer grinder or a blender. Grind them well to a fine and smooth paste. Once done, add the yoghurt in this paste along with salt as per your taste and blend once again. Transfer this handvo batter in a large bowl and cove with a lid, keep it aside to ferment for 8-10 hours. (Note: Add a little water for better consistency.)</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Next, take the bowl of fermented handvo batter and add grated bottle gourd, ginger paste, a little oil, green chilli paste, and a little turmeric powder. Mix all the ingredients well and make sure that the fermented Handvo batter has a thick consistency. (Note: If the batter becomes a little watery, you can add a little sooji in it for that crispiness and to increase the thickness. Also, if you want, you can also add your choice of vegetables in it like carrot, peas, and even potato.)</p>
+            </div> 
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>After mixing all the ingredients, add baking soda along with lemon juice in it. Mix vigorously and keep aside.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Now, quickly put a non-stick pan over medium flame and add the remaining oil in it. Once it is hot enough, add mustard seeds in it and let them crackle. Once they crackle, add cumin seeds in the pan along with black sesame seeds, curry leaves and asafoetida. Saute for a few seconds and then add the handvo batter in the pan. Spread it evenly and make sure you take good quantity of the batter. Cook the handvo just like a cheela and cook from both sides until golden brown. Once dpne, serve with chutney of your choice. Using the same procedure, cook more such handvos. You can also pour the tempering over the handvo. Enjoy!</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>        
+    </body>
+</html>

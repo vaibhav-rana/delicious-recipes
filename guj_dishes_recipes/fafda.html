@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Fafda Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Fafda Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/fafda.jpg" alt="Fafda">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>2 cups besan (chick-pea flour)</li>
+                        <li>1/4 tsp baking soda</li>
+                        <li>1/4 tsp ajwain (thymol)</li>
+                        <li>1/4 tsp haldi (turmeric)</li>
+                        <li>1 Tbsp oil</li>
+                        <li>1/2 tsp salt tsp or to taste</li>
+                        <li>Oil to deep-fry</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7yiiy_deC1g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->          
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Fafda</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Mix the besan, soda, ajwain, haldi, 1 tbsp oil and salt together.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Add water and knead into a soft dough.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Take a portion of the dough and place it on a greased surface.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>With base of your palm, drag the dough in a straight line, holding the dough at the starting point with the other hand.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>This will form a strip.</p>
+            </div>
+            <div class="step">
+                <h3>Step 6</h3>
+                <p>Fry these strips over medium heat till crisp</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>        
+    </body>
+</html>

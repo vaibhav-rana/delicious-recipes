@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Dabeli Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Dabeli Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/dabeli.jpg" alt="Dabeli">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>8 pav</li>
+                        <li>6 teaspoon butter</li>
+                        <li>1/4 cup sev</li>
+                        <li>3 teaspoon garlic mayonnaise</li>
+                        <li>1/4 cup pomergranate</li>
+                        <li>1 clove</li>
+                        <li>1 teaspoon cumin seeds</li>
+                        <li>2 potato</li>
+                        <li>1 tablespoon water</li>
+                        <li>salt as required</li>
+                        <li>1 handful coriander leaves</li>
+                        <li>1/4 cup raw peanuts</li>
+                        <li>2 onion</li>
+                        <li>6 tablespoon tamrind chutney</li>
+                        <li>1 teaspoon coriander seeds</li>
+                        <li>2 red chilli</li>
+                        <li>1/2 cinnamon stick</li>
+                        <li>1/2 pinch asafoetida</li>
+                        <li>6 tablespoon green chutney</li>
+                        <li>1 teaspoon cumin seeds</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zzPE-zoVzyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->    
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Dabeli</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Firstly, place a saucepan over medium flame and roast clove, cinnamon stick, coriander seeds and red chilli in it for about two minutes. On the other hand, boil the potatoes in a pressure cooker over medium flame and then cool them. Now, peel the potato and mash it in a bowl. Put the roasted masala mixture in a grinder and grind finely. Now, on a chopping board, chop the onions finely.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>For the filling, place another pan over medium flame and heat oil in it. Now, add the cumin seeds in it. Let these crackle and add asafoetida, ground masala, mashed potato, water and salt in the mixture, and mix well. Now, remove the pan from the flame, and add tamarind chutney in it. Mix it well.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Now, take the pav and cut them into halves. Place a pan over medium flame and melt butter in it. Now, place the sliced pav on it and cook them on both sides. Once the bun is cooked from both the sides, take them off the flame and place them on a flat surface. Next, put a portion of the filling on the lower half of each pav. Top it with the chopped onion, sev, coriander leaves, pomegranate, peanuts, 5 tablespoon green chutney and garlic mayonnaise.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Cover it with other half of the pav. Prepare the remaining dabeli in the same manner and drizzle 1 tablespoon green chutney over the dabeli. Serve it warm to enjoy!</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>    
+    </body>
+</html>

@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #fff;
+    color: #2c2c2c;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Fredoka One', cursive;
+    text-rendering: optimizeLegibility;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/cooking-cuisine-delicious-941869.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header-text{
+    position: absolute;
+    width: 1000px;
+    top: 10%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+h1{
+    text-transform: uppercase;
+    font-size: 250%;
+    color: #ddd;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+}
+h2{
+    margin-top: 20px;
+    font-size: 200%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: #ddd;
+}
+h1:after{
+    display: block;
+    height: 4px;
+    background-color: #f42f2c;
+    content: "";
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+h3{
+    font-size: 110%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ddd;
+    letter-spacing: 5px;
+}
+section{
+    padding: 20px 0;
+}
+.clearfix{zoom:1}
+.clearfix:after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.recipe-img img{ 
+    margin: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+.video_link{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.video_link a:link,
+.video_link a:visited{
+    text-decoration: none;
+    color: #ddd;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    transition: all .3s;
+}
+.video_link a:hover,
+.video_link a:active{
+    color: #f42f2c;
+}
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    display: none;
+    position: fixed;
+    z-index: 1;
+}
+.modal-content{
+    width: 640px;
+    height: 355px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color: #ddd;
+    font-size: 40px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close:hover{
+    color: #f42f2c;
+}
+.ingredients-heading{
+    text-align: center;
+}
+.ingredients-list ul{
+    padding: 20px;
+    list-style-position: inside;
+    list-style: none;
+}
+ul li::before{
+    content: "\2022";
+    color: #f42f2c;
+    display: inline-block; 
+    width: 1em;
+    font-size: 30px;
+}
+
+.ingredients-list ul li{
+    padding: 3px;
+    font-size: 24px;
+    color: #ddd;
+}
+.how-to h2:after{
+     display: block;
+    height: 4px;
+    background-color: #f42f2c;
+    content: "";
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.step{
+    margin: 10px;
+    padding: 5px;
+}
+.step h3{
+    margin-left: 20px;
+}
+.step p{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 120%;
+    color: #ddd;
+}

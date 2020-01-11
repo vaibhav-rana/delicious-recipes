@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Thepla Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Thepla Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/thepla.jpg" alt="Thepla">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>1 cup Wheat flour</li>
+                        <li>1/2 bunch fenugreek leaves(methi)</li>
+                        <li>1/2 tablespoon yoghurt(curd)</li>
+                        <li>2 pinches salt</li>
+                        <li>1/2 teaspoon grated ginger</li>
+                        <li>2 tablespoon dried fenugreek leaves</li>
+                        <li>2 chopped green chilli</li>
+                        <li>4 tablespoon ghee</li>
+                        <li>3/4 cup Gram flour(besan)</li>
+                        <li>1 cup water</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9fpgcbw5JAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                                          
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Thepla</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Crunchy and crispy, Thepla is a perfect tea-time delight and can be prepared in just a few minutes if all the ingredients are in place! To prepare this dish, mix flour, gram flour (besan), dried fenugreek, ginger and fresh fenugreek in a bowl. Stir well and add curd and water to knead it into a soft dough.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Then prepare small balls from the dough and roll them into thin circles. Then take a tawa and heat it on medium flame. Grease it with ghee or oil and cook the Thepla recipe on tawa. Cook from both sides till it turns golden, serve it hot with some mint chutney and your favourite cup of tea or coffee. You can also serve it with sweet delights like Jalebi or kheer to give a twist of flavours to your taste buds.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                    
+    </body>
+</html>

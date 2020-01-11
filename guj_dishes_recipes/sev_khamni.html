@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Sev Khamni Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Sev khamni Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/sev_khamni.jpeg" alt="Sev Khamni">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>2 tablespoon chopped coriander leaves</li>
+                        <li>salt as required</li>
+                        <li>2 teaspoon lemon juice</li>
+                        <li>2 teaspoon ginger paste</li>
+                        <li>refined oil as required</li>
+                        <li>500 gm chana dal</li>
+                        <li>4 tablespoon pomegranate seeds</li>
+                        <li>1 tablespoon coriander seeds</li>
+                        <li>2 teaspoon crushed to paste green chilli</li>
+                        <li>1 teaspoon mustard seeds</li>
+                        <li>500 gm sev</li>
+                        <li>1/2 teaspoon sugar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ktCN7K1nGhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                                  
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Sev khamni</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>To prepare this Gujarati specialty, first take a large sized bowl and pour good amount of water in it. Then, transfer the chana dal in it. Cover with a lid and keep aside for at least 5-6 hours.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Next, take a large sized pan and place it on medium-low flame. Then, pour and heat little amount of oil in it. Now, add mustard seeds and stir them for 5-10 seconds. Next, add ginger paste along with green chilli paste, sugar, lemon juice and mix well. Also, add salt as required. Stir well for about 10-12 minutes and then keep aside.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>After the dal is soaked in water for at least 5-6 hours, drain the water from its bowl. Now, transfer the soaked dal in a mixer-grinder jar. Grind it at maximum speed until it becomes partially smooth in texture.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Next, take a separate large sized pan and place it on medium flame. Now, transfer the blended dal in the pan and stir well until it reaches the boiling temperature. Make sure that the dal is cooked properly and is tender in texture. Also, add salt as required and mix well. Once done, turn the flame off and keep aside.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>Now, take a serving dish and transfer the prepared dal(step 4) in it. Then, transfer the prepared spice mixture(step 2) over it. Garnish with pomegranate, sev, coriander leaves and serve immediately.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                    
+    </body>
+</html>

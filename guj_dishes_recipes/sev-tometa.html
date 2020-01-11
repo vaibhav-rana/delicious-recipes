@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Sev Tometa Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Sev Tometa Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/sev_tometa_nu_shaak.jpg" alt="Sev Tometa">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>100 gm sev</li>
+                        <li>3 green chilli</li>
+                        <li>2 teaspoon cumin seeds</li>
+                        <li>2 teaspoon chilli powder</li>
+                        <li>1 teaspoon powdered asafoetida</li>
+                        <li>2 pinches salt</li>
+                        <li>5 cloves garlic</li>
+                        <li>2 tablespoon refined oil</li>
+                        <li>1 teaspoon powdered turmeric</li>
+                        <li>2 teaspoon coriander powder</li>
+                        <li>10 gm powdered jaggery</li>
+                        <li>1 cup water</li>
+                        <li>4 teaspoon chopped coriander leaves</li>
+                        <li>250 gm chopped into cubes tomato</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eJBRACUSF5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                                      
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Sev Tometa</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>In a pan, heat the oil and add the asafoetida powder and cumin seeds, let them splutter. Then add the garlic and green chillies and saute for a minute.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Once they start spluttering, add the tomatoes and chilly powder along with water that you can adjust as per your taste.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Now, add the jaggery powder, coriander powder, turmeric powder and salt in the pan. Cover with a lid, till the jaggery melts completely. Stir occasionally.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Once the jaggery is blended, add the thick sev and stir for a while. Let the concoction be on the liquid side, like gravy. The sev will absorb the water, but if you want the mixture to be on the gravy side you can add extra water.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>The tomato sev sabzi is ready. Garnish with coriander leaves and serve hot with chapati or steamed rice.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                
+    </body>
+</html>

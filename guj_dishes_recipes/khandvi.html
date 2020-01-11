@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Khandvi Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Khandvi Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/khandvi.jpg" alt="Khandvi">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>1 cup Gram flour (besan)</li>
+                        <li>1 inch ginger</li>
+                        <li>2 pinch salt</li>
+                        <li>1/2 teaspoon powdered turmeric</li>
+                        <li>1 pinch asafoetida</li>
+                        <li>3 cup buttermilk</li>
+                        <li>2 green chilli</li>
+                        <li>3 tablespoon Refined oil</li>
+                        <li>1 tablespoon lemon juice</li>
+                        <li>1 teaspoon mustard seeds</li>
+                        <li>2 teaspoon grated coconut</li>
+                        <li>1/4 bunch coriander leaves</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/x-vDX2gf-Dg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                      
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Khandvi</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Khandvi Is one of the most popular Gujarati snack. Made with some easily available ingredients this dish is a perfect fusion of sweet and tangy flavours garnished with grated coconut and coriander leaves. Here’s how you can prepare this interesting snack at home. Take a glass bowl, sieve besan. Remove the seeds of green chillies and prepare ginger and green chilli paste.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Oil the reverse side of a stainless steel thali or marble table top with a little oil, to prevent the khandvi mixture from sticking and to ease the process of rolling the Khandvi. Mix the besan with ginger-green chilli paste, salt, turmeric powder, lemon juice and buttermilk, taking care that no lumps are formed.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>In a thick bottomed pan, cook this mixture by stirring continuously, till it becomes a smooth thick batter. It takes a few minutes to get this ready. Quickly spread portions of the mixture over the oiled inverted thali or marble table top as thinly as possible while the batter is still very hot.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>When cool, cut into strips two inches wide and roll them tightly and taking care that you don't break them. Heat two tablespoons of oil and add a pinch of asafoetida and mustard seeds. When they crackle / splutter, pour over the pieces.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>Serve immediately garnish with grated fresh coconut and finely chopped green coriander leaves. Goes best with coriander chutney, coriander mint chutney or garlic chutney.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>            
+    </body>
+</html>

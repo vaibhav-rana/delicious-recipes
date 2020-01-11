@@ -1,0 +1,92 @@
+    <!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Muthiya Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Muthiya Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/muthiya.jpg" alt="Muthiya">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>1 cup chick peas</li>
+                        <li>salt as required</li>
+                        <li>1/2 tablespoon coriander seeds</li>
+                        <li>7 cloves garlic</li>
+                        <li>1/2 tablespoon cumin seeds</li>
+                        <li>refined oil as required</li>
+                        <li>4 tablespoon lemon juice</li>
+                        <li>1 teaspoon turmeric</li>
+                        <li>3 green chilli</li>
+                        <li>1 inch ginger</li>
+                        <li>1/2 cup chopped fenugreek leaves ( methi)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ft_2LIcvOU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                          
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Muthiya</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>To start with, soak chickpea in hot water for 2-3 hours or until they tenderize. Drain out water once done and grind chickpea, ginger, garlic, chilies, cumin and coriander in a grinder into a paste.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Take a bowl and pour the paste in it. Add chopped fenugreek leaves, salt and curd in the bowl. Mix well.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Take a kadai, keep it on medium flame and heat oil in it. Pour spoonful of the mixture in the kadai and deep fry it until golden brown in color.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Take out on an absorbent paper and enjoy your crispy, hot muthiyas with your favourite sauce or chutney.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                
+    </body>
+</html>
