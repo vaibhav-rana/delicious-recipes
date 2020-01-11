@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+    color: #ddd;
+    background-color: rgba(244, 47, 44, 0.6);
+}
+html{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(img/bg.jpg);
+    height: 100vh;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    color: #2c2c2c;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Fredoka One', cursive;
+    text-rendering: optimizeLegibility;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 300%;
+    color: #ddd;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    text-shadow: 3px 5px 5px #f42f2c;
+}
+h2{
+    font-size: 200%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+    font-weight: 100; 
+    color: #ddd;
+}
+h3{
+    font-size: 250%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: right;
+    color: #ddd;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 200px;
+    transition: background-color 0.4s, color 0.2s,border 0.2s;
+}
+.btn-full:link,
+.btn-full:visited{
+    margin-right: 20px;
+    border: 1px solid #f42f2c;
+    background-color: #f42f2c;
+    color: #ddd;
+    font-size: 20px;
+}
+.btn-full:hover,
+.btn-full:active{
+    border: 1px solid #dddddd;
+    background-color: transparent;
+    color: #ddd;
+}
+.logo{
+    height: 130px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+section{
+    padding: 100px 0;
+}
+.box{
+    padding: 50px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.box i{
+    font-size: 280%;
+}
+.box a:link,
+.box a:visited{
+    text-decoration: none;
+    color: #ddd;
+    transition: all .3s;
+}
+.box a:hover,
+.box a:active{
+    color: #f42f2c;
+}
