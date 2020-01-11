@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Paneer Makhani Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Paneer Makani Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/paneer-makhani-recipe.jpg" alt="Paneer Makhani">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>500 gm paneer</li>
+                        <li>1 teaspoon garam masala powder</li>
+                        <li>6 tablespoon butter</li>
+                        <li>400 ml tomato puree</li>
+                        <li>1 teaspoon red chilli powder</li>
+                        <li>4 green chilli</li>
+                        <li>400 gm fresh cream</li>
+                        <li>4 tablespoon dried fenugreek leaves</li>
+                        <li>salt as required</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IgJlrMcIWX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                                                    
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Paneer Makhani</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>To start with, wash paneer and chop it properly into small cubes on a chopping board. Chop the green chilies as well. Take a pan and keep it on medium flame. And butter to the pan and let it melt, it won't take much time to melt.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>After the butter melts, add green chilies, tomato puree, kasuri methi, salt, red chili powder to the pan. Stir well to let the ingredients mix.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Cover the pan or you can also keep it uncovered and simmer for 7-8 minutes by reducing the flame to low or otherwise your spices can burn.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Then add cream and garam masala to the pan. Let the mixture cook for another 5 minutes on medium flame. Once the mixture is cooked properly, finally add paneer cubes to the pan and cook for another 2 minutes.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>Take out the paneer curry in a bowl and garnish with coriander. Serve hot with chapati and rice.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                                
+    </body>
+</html>

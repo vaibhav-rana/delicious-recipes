@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Paneer Tikka Pizza Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Paneer Tikka Pizza Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/paneer-tikka-pizza.jpg" alt="Paneer Pizza">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>1 medium pizza base</li>
+                        <li>100 gm cubed paneer</li>
+                        <li>1 bunch finely chopped spinach</li>
+                        <li>1 tablespoon butter</li>
+                        <li>1 tablespoon pizza sauce</li>
+                        <li>1 cubed capsicum(green pepper)</li>
+                        <li>1 handful basil</li>
+                        <li>1 teaspoon spice oregano</li>
+                        <li>1 teaspoon chilli flakes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/G0mVNvzGjfk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                                                            
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Paneer Tikka Pizza</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Take a ready made pizza crust. If you love healthy eating, then go for wheat or multi-grain base. You can also prepare the pizza base at home by kneading the dough with a little salt and yeast. Allow it to rest for 6 hours. Knead it again and make round bases out of it.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Spread a layer of butter on the pizza base, followed by pizza sauce. If you do not have a pizza sauce at home, you can use tomato ketchup. Wash the spinach and chop it finely. Roughly crumble the paneer and chop the capsicum. Add a layer of spinach leaves, paneer and capsicum on the pizza base. Top it with shredded basil leaves. Save some for the topping.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Now, grate the cheese over pizza. Ensure that it spreads evenly all over the pizza. Ideally, you must use mozzarella cheese, but if you do not have it, you can use cheese cubes. Bake the pizza for 180 degree C for 10-15 minutes, depending on your oven.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Once done, remove the pizza and allow it to cool slightly. Cut the paneer pizza into slices. Garnish the pizza by sprinkling oregano seasoning or chilli flakes and basil leaves. Serve hot.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                                        
+    </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Khoya Paneer Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Khoya Paneer Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/khoya-paneer.jpg" alt="Khoya Paneer">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>200 grams Paneer</li>
+                        <li>120 grams khoya grated</li>
+                        <li>1 cup milk</li>
+                        <li>2 onion medium sized finely chopped</li>
+                        <li>2 tomato medium sized finely chopped</li>
+                        <li>1/2 inch ginger grated</li>
+                        <li>4 cloves garlic crushed</li>
+                        <li>Salt to taste</li>
+                        <li>1/2 tsp garam masala</li>
+                        <li>1/2 tsp Red chilly powder</li>
+                        <li>1 tbsp butter</li>
+                        <li>1 tbsp oil</li>
+                        <li>1/2 inch sticks cinnamon</li>
+                        <li>2 pieces cloves</li>
+                        <li>1 cardamom big black</li>
+                        <li>1 cardamom small</li>
+                        <li>1 piece bay leaf</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Dimy0kuZytg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Khoya Paneer</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Heat oil and butter in a pan, once the oil becomes little hot add cumin seed, whole garam masala (cinnamon, cloves, big black cardamom, small cardamom, bay leaf) and sauté till the cumin seed becomes light brown.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Add finely chopped onion and cook it on medium flame till it becomes light brown.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Add grated ginger, crushed garlic and stir it for few seconds.
+                Add finely chopped tomato and cook till the tomatoes become soft and mushy and all the water gets evaporated.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Add grated khoya, stir it well and cook it on medium flame till the oil starts leaving the sides of pan. Now add paneer cubes and all the spices (red chilly powder, garam masala, salt), sauté it on medium flame for 2-3 minutes. To make semi white gravy, do not add turmeric powder.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>Lastly add milk and cook on medium flame till it starts boiling. You can adjust the consistency of the gravy as per your wish by adding water. I kept medium thick gravy.</p>
+            </div>
+            <div class="step">
+                <h3>Step 6</h3>
+                <p>Garnish with coriander leaves and serve hot with tandoori roti, naan, phulka or rice. You can also roast khoya for 2-3 minutes or till it become light brown by adding some ghee. You can also shallow or deep fry the paneer cubes.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                    
+    </body>
+</html>

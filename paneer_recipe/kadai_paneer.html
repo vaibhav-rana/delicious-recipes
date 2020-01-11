@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Kadai Paneer Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>kadai Paneer Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/kadai-paneer.jpg" alt="Kadai Paneer">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>2 tsp coriander seeds</li>
+                        <li>1 tsp cumin</li>
+                        <li>1/2 tsp black pepper</li>
+                        <li>3 dried kashmiri red chilli</li>
+                        <li>2 tsp oil</li>
+                        <li>3 clove garlic,crushed</li>
+                        <li>1 onion,sliced</li>
+                        <li>2 tomato,finely chopped</li>
+                        <li>1 tbsp butter</li>
+                        <li>1 bay leaf / tej patta</li>
+                        <li>1 green chilli, slit</li>
+                        <li>1 tsp kasuri methi/dry fenugreek leaves</li>
+                        <li>1/2 onion, petals</li>
+                        <li>1/2 capsicum, cube</li>
+                        <li>1/4 tsp turmeric</li>
+                        <li>1/2 tsp kashmiri red chilli powder</li>
+                        <li>1 cup water</li>
+                        <li>12 cube paneer/cottage cheese</li>
+                        <li>2 tbsp cream</li>
+                        <li>1/4 tsp garam masala</li>
+                        <li>2 tbsp coriander leaves</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4RFFFJMC52g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Kadai Paneer</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>firstly, in a large kadai, heat 1 tbsp butter and saute 1 bay leaf, 1 green chilli, 1 tsp kasuri methi till they aromatic.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>further saute 1/2 onion petals and ½ cubed capsicum.add 1/4 tsp turmeric and 1/2 tsp chilli powder.further add blended tomato-onion paste and mix well.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>in addition, add prepared kadai masala and 1 tsp salt. Cook till the masala paste starts to release oil.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>now add ½ to 1 cup water adjusting consistency as required.add 12 cubes homemade paneer, 2 tbsp cream and mix gently.cover and simmer for 5 minutes.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>furthermore, add 1/4 tsp garam masala and 2 tbsp coriander leaves. mix well.</p>
+            </div>
+            <div class="step">
+                <h3>Step 6</h3>
+                <p>finally, serve restaurant-style kadai paneer gravy hot with garlic naan or chapati.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                    
+    </body>
+</html>

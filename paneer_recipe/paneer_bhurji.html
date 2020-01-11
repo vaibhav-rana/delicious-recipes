@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Paneer Bhurji Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Paneer Bhurji Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/paneer-bhurji.jpg" alt="Paneer Bhurji">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>200 gm paneer</li>
+                        <li>2 medium finely chopped tomato</li>
+                        <li>1 tablespoon lemon juice</li>
+                        <li>1/2 teaspoon cumin seeds</li>
+                        <li>3 pinches coriander powder</li>
+                        <li>1/2 teaspoon garam masala powder</li>
+                        <li>2 medium finely chopped onion</li>
+                        <li>2 medium finely chopped capsicum</li>
+                        <li>2 teaspoon sunflower oil</li>
+                        <li>1/2 teaspoon red chilli powder</li>
+                        <li>2 pinch powdered turmeric</li>
+                        <li>4 pinch salt</li>
+                        <li>2 tablespoon finely chopped coriander leaves</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tO8pGUqIoso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                                
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Paneer Bhurji</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Undeniably, Paneer Bhurji is one of the easiest thing to prepare, when you don’t feel like putting in much efforts to prepare an elaborate meal. Here’s how you can prepare this easy dish. To prepare this healthy Paneer Bhurji recipe, take a bowl and crumble the paneer. Keep it aside. Then heat oil in a non-stick pan over medium flame. Once the oil is sufficiently hot, add the cumin seeds and fry them for 20 seconds.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Once the cumin seeds start to crackle, add the onions and saute them for a minute. Wait for the onions to turn slightly brown in colour. Now add red chilli powder, coriander powder, turmeric powder, garam masala powder and stir well. Saute these ingredients for another minute.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Then, add tomatoes and a pinch of salt. Stir well and cook for a minute. Now add capsicums and saute for one more minute. Capsicum adds a nice flavour to the entire dish. Add the crumbled paneer and mix well. Cook for a minute or two. Turn off the flame and transfer the Paneer Bhurji in a serving bowl.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Squeeze lemon juice over the paneer recipe and stir well. Garnish with coriander leaves and serve with toasted bread slices and tea or coffee. You can also enjoy this paneer recipe as an evening tea-time snack.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                        
+    </body>
+</html>

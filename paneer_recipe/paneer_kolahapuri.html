@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Paneer Kolahapuri Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Paneer Kolahapuri Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/paneer-kolhapuri.jpg" alt="Paneer Kolhapuri">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>1 cup Paneer cubes</li>
+                        <li>1 Onion</li>
+                        <li>2 Tomatoes</li>
+                        <li>1/2 tsp Ginger Garlic paste</li>
+                        <li>1/4 tsp Cumin seeds</li>
+                        <li>4 tsp dry Coconut</li>
+                        <li>6 whole black pepper</li>
+                        <li>1/2 tsp fennel seeds</li>
+                        <li>1 tsp sesame seeds</li>
+                        <li>1 Cardamom</li>
+                        <li>2 Cloves</li>
+                        <li>6 Cashew nuts</li>
+                        <li>1/2 tsp Red Chilli powder</li>
+                        <li>1/2 tsp coriander powder</li>
+                        <li>1 tbsp oil</li>
+                        <li>Coriander leaves few.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kcrnJBbWuvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                                            
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Paneer Kolahapuri</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Dry roast the black pepper, dry coconut, sesame seeds, cardamom, fennel and cloves till the coconut turns brown.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Lastly, add the cashew nuts and switch of the flame.Grind this into a fine paste, adding a little water.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>In a pan, pour oil and add the cumin seeds and ginger-garlic paste. Saute in a low flame.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Now add finely chopped onions and saute till the onions turn brown.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>Now add the ground masala. After few seconds, add the finely chopped tomato, red chilli powder, coriander powder and salt.</p>
+            </div>
+            <div class="step">
+                <h3>Step 6</h3>
+                <p>Let this cook for a while in a low flame. Add the paneer cubes and add water to get desired consistency.Garnish with coriander leaves. Serve hot.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                                
+    </body>
+</html>

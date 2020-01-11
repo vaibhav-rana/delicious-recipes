@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Paneer Curry Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Paneer Curry Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/panner-curry.jpg" alt="Paneer Curry">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>200 gm paneer</li>
+                        <li>30 gm carrot</li>
+                        <li>30 gm capsicum(green pepper)</li>
+                        <li>1 tablespoon refined oil</li>
+                        <li>100 ml refined oil</li>
+                        <li>1/2 teaspoon kasoori methi powder</li>
+                        <li>2 teaspoon chilli powder</li>
+                        <li>1/2 teaspoon turmeric</li>
+                        <li>3 green cardamom</li>
+                        <li>4 clove</li>
+                        <li>1/4 teaspoon ginger paste</li>
+                        <li>1 bunch coriander leaves</li>
+                        <li>1/2 cup fresh cream</li>
+                        <li>30 gm green beans</li>
+                        <li>1 chopped onion</li>
+                        <li>1 tablespoon ghee</li>
+                        <li>1 tablespoon corn flour</li>
+                        <li>salt as required</li>
+                        <li>1 teaspoon garam masala powder</li>
+                        <li>1/2 cup tomato puree</li>
+                        <li>1/2 cinnamon stick</li>
+                        <li>1 teaspoon cumin</li>
+                        <li>1/4 teaspoon garlic paste</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oYUdwcF3SMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                                        
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Paneer Curry</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Make a thin paste using cornflour and water and mix kasoori methi, salt, chili powder and turmeric powder.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Next, add paneer pieces into this paste and mix all the ingredients well. Ensure that paneer pieces are coated well with the paste. Leave the mixture for 30 minutes.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>After 30 minutes, shallow fry the paneer pieces in oil until they turn golden brown in color and then transfer them onto an absorbent paper to remove the excess oil.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Now, heat some oil in a cooking pan and toss in all the spices. Fry the mixture for a minute or two and add ginger and garlic paste in the pan. Cook this mixture until the raw smell subsides. After that add onions to this mixture and saute for 2 minutes.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>Add the capsicum, carrot and beans to the pan and saute them for 2-3 minutes. Then add tomato puree in the pan and cook till the oil leaves the sides of your cooking pan.</p>
+            </div>
+            <div class="step">
+                <h3>Step 6</h3>
+                <p>Add cream to this mixture and mix it with remaining contents in the pan. Cook for about 2 to 3 minutes.</p>
+            </div>
+            <div class="step">
+                <h3>Step 7</h3>
+                <p>Once you get a light golden yellow color add some kasoori methi, tumeric powder, garam masala and chilli powder to this mixture. Simmer for a minute and allow the gravy to absorb the spices.</p>
+            </div>
+            <div class="step">
+                <h3>Step 8</h3>
+                <p>Finally, add fried paneer pieces to this gravy and cook for about 3-4 minutes. Next, add some chopped coriander and transfer the contents into a serving bowl. Garnish with cream and coriander leaves and serve hot!</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                            
+    </body>
+</html>

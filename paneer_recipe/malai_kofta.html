@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Malai Kofta Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Malai Kofta Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/malai-kofta.jpg" alt="Malai kofta">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>70 gm paneer</li>
+                        <li>1/4 cup cashews</li>
+                        <li>1/2 teaspoon poppy seeds</li>
+                        <li>1/2 teaspoon crushed to paste garlic</li>
+                        <li>1/2 teaspoon red chilli powder</li>
+                        <li>1/2 tablespoon mustard oil</li>
+                        <li>1 teaspoon all purpose flour</li>
+                        <li>1/2 teaspoon garam masala powder</li>
+                        <li>1 green cardamom</li>
+                        <li>2 medium chopped tomato</li>
+                        <li>2 tablespoon melon seeds</li>
+                        <li>1/4 teaspoon powdered green cardamom</li>
+                        <li>1/2 teaspoon crushed to paste ginger</li>
+                        <li>2 pinches salt</li>
+                        <li>1/8 cup yoghurt (curd)</li>
+                        <li>1 tablespoon fresh cream</li>
+                        <li>1 bunch chopped coriander leaves</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q4cSiiYa6_w?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                    
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make malai kofta</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>To make this delicious Malai kofta recipe, pressure cook the tomatoes with cashew nuts, melon seeds, poppy seeds, ginger, green cardamoms, red chilli powder, salt and 1 tbsp oil. It will be cooked in 1 whistle. Once done, allow the mixture to cool and grind it in a blender. Then add yogurt and mix it well. Keep it aside.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Meanwhile, take a bowl and mash the paneer it using your hands. Add in green cardamom powder, salt, flour and mix well. It should be of a little thicker consistency. Then take small portions from the mixture and shape them into koftas.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Then take a pan and add oil in it. To make this recipe even more delicious replace regular refined oil with some ghee. This will make this traditional recipe aromatic and rich in taste.Heat it over moderate flame. Once the oil is sufficiently hot, carefully place the koftas in the oil and deep fry them. Once slightly golden in hue, transfer them on tissue papers to drain the excess oil.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Next, strain the mixture and transfer it in a pan. Heat it on high flame and bring the mixture to a boil. Add in the garam masala along with the cream. Then, in a serving bowl add the deep fried koftas, pour the gravy. Garnish with some more cream before serving. In the end, garnish it with some fresh coriander leaves and serve hot with roti or chapati.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                       
+    </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Paneer Butter Masala Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Paneer Butter Masala Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/paneer-butter-masala.jpg" alt="Paneer Butter Masala">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>450 gm paneer</li>
+                        <li>5 medium chopped tomato</li>
+                        <li>2 tablespoon powdered coriander seeds</li>
+                        <li>1/2 tablespoon fresh cream</li>
+                        <li>4 tablespoon butter</li>
+                        <li>2 clove</li>
+                        <li>2 red chilli</li>
+                        <li>2 teaspoon garlic paste</li>
+                        <li>1/2 teaspoon kasoori methi powder</li>
+                        <li>2 bay leaf</li>
+                        <li>2 teaspoon ginger paste</li>
+                        <li>1 teaspoon red chilli powder</li>
+                        <li>1 teaspoon refined oil</li>
+                        <li>salt as required</li>
+                        <li>2 cinnamon</li>
+                        <li>1 sliced onion</li>
+                        <li>1 teaspoon coriander powder</li>
+                        <li>1 handful coriander leaves</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YcI9nWFO-PA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                                    
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Paneer Butter Masala</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Take a pan and add three tablespoons butter with one teaspoon oil in it. Heat it over moderate flame. Add bay leaves, cloves, cinnamon, dried and broken red chilies and half of the crushed coriander seeds. Saute these ingredients for half a minute.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Now, add the sliced onions and stir fry till they turn slightly pinkish in hue.Then add ginger-garlic paste. Keep stirring and cook on low flame till the raw smell goes away. Add coriander powder, red chilli powder and chopped tomatoes. Cook the mixture on high flame till oil leaves the masala.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Once the masala is cooled, puree the mixture. Heat the remaining butter in a non-stick pan over moderate flame. Cook the pureed mixture for two minutes. Add paneer pieces and salt. Add half a cup of water. Cook covered on low heat for five minutes.Sprinkle kasoori methi and mix in lightly. Remove from heat and transfer the dish to a serving bowl. Mix in cream and serve hot, garnished with coriander leaves.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                            
+    </body>
+</html>

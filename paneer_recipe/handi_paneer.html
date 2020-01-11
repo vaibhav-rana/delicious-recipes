@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Handi Paneer Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Handi Paneer Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/handi-paneer.jpg" alt="Handi Paneer">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>200 gm paneer</li>
+                        <li>1/2 teaspoon powdered turmeric</li>
+                        <li>1/2 teaspoon garam masala powder</li>
+                        <li>1/2 cup water</li>
+                        <li>2 pinches powdered black pepper</li>
+                        <li>2 grated ginger</li>
+                        <li>1/2 teaspoon chilli powder</li>
+                        <li>1 finely chopped tomato</li>
+                        <li>2 stalks chopped coriander leaves</li>
+                        <li>4 tablespoon refined oil</li>
+                        <li>3 chopped onion</li>
+                        <li>1/2 cup beaten yoghurt (curd)</li>
+                        <li>Salt as required</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qYEBNIrEFxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->            
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Handi Paneer</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Put oil in a handi, stir fry the chopped onions on medium flame, when done, reduce the flame to low. Then add two pieces of grated ginger, turmeric powder, chilli powder, garam masala and mix well.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Add the finely chopped tomato and green chilli, and cook on low flame for about 10 minutes.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Add half cup beaten curd and cook till dry, before adding salt. Add half cup water and bring it to a boil.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Mix in malai paneer and chopped coriander, cook till the masala dries.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>Add pepper and remove from the flame. Serve in a large bowl and sprinkle coriander leaves over the dish.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                
+    </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Matar Paneer Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Matar Paneer Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/matar-paneer.jpg" alt="Matar Paneer">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>250 gm chopped into cubes paneer</li>
+                        <li>2 large minced onion</li>
+                        <li>1 teaspoon ginger paste</li>
+                        <li>1 teaspoon cumin powder</li>
+                        <li>1 tablespoon coriander powder</li>
+                        <li>1/2 teaspoon powdered turmeric</li>
+                        <li>1 tablespoon tomato puree</li>
+                        <li>2 tablespoon refined oil</li>
+                        <li>1 teaspoon garam masala powder</li>
+                        <li>1 cup peas</li>
+                        <li>3 small pureed tomato</li>
+                        <li>1 teaspoon garlic paste</li>
+                        <li>1 pinch mace powder</li>
+                        <li>1 teaspoon red chilli powder</li>
+                        <li>1/2 teaspoon cumin seeds</li>
+                        <li>1 pinch asafoetida</li>
+                        <li>Salt as required</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Cwsq_11zvig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                        
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Matar Paneer</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Heat oil in a fry pan. Add the hing, jeera sabut, mace powder, minced onions and green chilies. Saute the veggies and cook till it turns pinkish in colour. Add ginger-garlic paste and saute again for 2-3 minutes. If you like the smoky flavour of garlic, stir fry it for some more time and add fresh tomato puree.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Stir well and add in the dry masalas except for the garam masala and salt to taste. Mix and saute till the sides start separating from the oil. Next add in peas and paneer. Mix it gently and add water. Adjust the spices and salt to taste. If you want to make the gravy aromatic, add the garam masala in the last step of cooking this recipe. Put the lid and let it cook.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Once the gravy starts boiling, add fresh cream. Besides, accentuate the taste of this dish by adding some garam-masala and stir well. Garnish this paneer dish with fresh coriander leaves, and serve it hot with Chapati, Naan, Butter tandoori roti, Jeera rice and Veg pulao.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                        
+    </body>
+</html>

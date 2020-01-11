@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Paneer korma Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Paneer korma Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/paneer-korma.jpg" alt="Paneer Korma">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>  
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>200 gm paneer</li>
+                        <li>1/4 teaspoon black pepper</li>
+                        <li>1 inch cinnamon stick</li>
+                        <li>4 clove</li>
+                        <li>2 teaspoon ginger paste</li>
+                        <li>1 medium green chilli</li>
+                        <li>3 tablespoon low fat cream</li>
+                        <li>2 tablespoon ghee</li>
+                        <li>salt as required</li>
+                        <li>water as required</li>
+                        <li>1 leaf bay leaf</li>
+                        <li>1/2 teaspoon caraway seeds</li>
+                        <li>1/2 teaspoon coriander powder</li>
+                        <li>3 green cardamom</li>
+                        <li>mace powder as required</li>
+                        <li>2 teaspoon garlic paste</li>
+                        <li>6 tablespoon yoghurt (curd)</li>
+                        <li>1 teaspoon rose water</li>
+                        <li>2 pinches saffron</li>
+                        <li>25 soaked almonds</li>
+                        <li>3/4 cup chopped onion</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qJEa17aqi9c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                                                
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Paneer Korma</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>To prepare this delicious paneer recipe, put a pan on low flame and add roughly chopped onions in it along with 1/4 cup of water. Let the onions cook for about sometime, if water dries up you can add some more water. Simmer till the onions soften and start peeling the almonds, and keep them aside.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Add peeled almonds with a little water in a grinder jar and grind them to a smooth paste, until the lumps are completely gone. To the same blender, add the cooked onions along with the remaining stock and grind to a fine paste, and keep this onion paste aside. Add full fat yoghurt in a bowl and whisk until smooth.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Heat 2 tablespoons of ghee in a pan over medium flame and add caraway seeds, cinnamon stick, cardamoms, cloves, bay leaf and a little amount of mace powder. Stir the whole spices for a couple of minutes and then add the ground onion paste along with ginger-garlic paste. Saute all the ingredients until aromatic.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Now, add the ground almond paste and saute again for 2 minutes on low flame. Then, add chopped green chili, black pepper and coriander powder, and saute on low flame. Finally, add the beaten yoghurt (in batches) to the mixture, and stir briskly on low flame. Once you mix all the ingredients, you will get a thick white gravy. (Note: You can add some water to get the proper consistency of gravy.)</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>Add salt to the gravy as per your taste and bring it to a gentle simmer for a couple of minutes. Add the chopped paneer cubes and low fat cream to the gravy, and stir well for a couple of minutes. Switch off the burner once done and add a teaspoon of rose water in the dish, stir gently.</p>
+            </div>
+            <div class="step">
+                <h3>Step 6</h3>
+                <p>Garnish with crushed saffron strands and serve hot with rice or pulao and naan. Enjoy!</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                                
+    </body>
+</html>

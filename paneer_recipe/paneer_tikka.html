@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Paneer Tikka Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Paneer Tikka Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/paneer-tikka.jpg" alt="Paneer Tikka">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>  
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>200 gm cubed paneer</li>
+                        <li>2 pinch salt</li>
+                        <li>1 inch ginger</li>
+                        <li>1 teaspoon pureed cashews</li>
+                        <li>1 tablespoon gram flour (besan)</li>
+                        <li>1/2 cup yoghurt (curd)</li>
+                        <li>1 teaspoon poppy seeds</li>
+                        <li>6 peppercorns</li>
+                        <li>1/8 teaspoon edible food color</li>
+                        <li>1/2 cup chopped onion</li>
+                        <li>6 pieces garlic</li>
+                        <li>1 cup tomato puree</li>
+                        <li>3 tablespoon refined oil</li>
+                        <li>1 tablespoon cumin seeds</li>
+                        <li>6 red chilli</li>
+                        <li>1/2 teaspoon ginger paste</li>
+                        <li>1/2 teaspoon garlic</li>
+                        <li>1 teaspoon lime juice</li>
+                        <li>1/2 teaspoon chaat masala</li>
+                        <li>1/2 teaspoon cumin powder</li>
+                        <li>1/4 cup fresh cream</li>
+                        <li>1/2 cup chopped coriander leaves</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LzkoXwrwdEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->                                                        
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Paneer Tikka</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Here’s how you can prepare this paneer recipe at home with some easily available ingredients. The very first step is to prepare the Paneer Tikka and for that you need to prepare a marination mixture by mixing the ginger paste, garlic paste, chat masala, lime juice, cumin powder and salt. Let it rest for a minute and coat the cubed paneer pieces with mixture and let it marinade for about 30 minutes.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>At 200 degree C bake the marinated paneer pieces for 10 minutes. Paneer Tikka is prepared and you can keep it aside in a bowl. Now, to prepare the gravy, heat 2 tablespoons of oil and fry the onion till they turn brown and translucent. While the onions are done, let it cool.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Grind them well and keep them aside. Then mix ginger, garlic, cashew nuts, cumin, poppy seeds, dry red chillies and peppercorn in the grinder and grind them into a smooth thick paste. Take a pan and heat it on low-medium flame, heat 4 tablespoon of oil and stir-fry the finely grinded mixture till it turns brown and add gram flour. Roast the flour for a minute and then add the curd and cook it for about 5 minutes.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                 <p>Now, add tomato puree and cook till the puree dries up. Then add 3 cups of hot water and a pinch of tandoori edible food colour. Mix them all together and let the gravy cook for about 2-4 minutes. When it's cooked, simmer it for another minute and reduce the flame.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>For preparing the Paneer Tikka Masala, add the baked paneer tikka in the gravy and cook it till the gravy is thick enough. When your paneer dish is cooked, switch off the burner. Empty this sumptuous dish into a large serving bowl and garnish it with coriander leaves and cream. And serve this rich creamy recipe with your choice of Indian bread or Rice.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                                    
+    </body>
+</html>
