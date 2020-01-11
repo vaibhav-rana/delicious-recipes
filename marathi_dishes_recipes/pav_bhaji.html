@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Pav Bhaji Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Pav Bhaji Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/pav_bhaji.jpg" alt="Pav Bhaji">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>4 medium mashed,boiled potato</li>
+                        <li>4 medium chopped tomato</li>
+                        <li>1 chopped seeded capsicum</li>
+                        <li>2 medium chopped onion</li>
+                        <li>1/4 cup chopped carrot</li>
+                        <li>1/2 cup chopped cauliflower</li>
+                        <li>1/2 tablespoon ginger paste</li>
+                        <li>1 cup shelled,blanched peas</li>
+                        <li>3 tablespoon refined oil</li>
+                        <li>2 chopped green chilli</li>
+                        <li>3 pinch salt</li>
+                        <li>25 gm melted butter</li>
+                        <li>8 pav</li>
+                        <li>1 medium lemon wedges</li>
+                        <li>2 teaspoon garlic paste</li>
+                        <li>2 teaspoon pav bhaji masala</li>
+                        <li>1/4 cup green beans</li>
+                        <li>1 handful chopped coriander leaves</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gYx9Sexhmaw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->    
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Pav Bhaji</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Blanch the peas, cauliflower florets, carrots and beans. Alternately, you can also boil them with a little water in the pressure cooker. Drain and mash coarsely. Heat oil in a pan and add three fourth quantity of onions. Sauté till light golden in colour. Add green chillies and ginger-garlic paste. Stir-fry for half a minute. Add pav bhaji masala and chopped capsicum and stir fry for a minute.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Ensure that you have finely chopped the tomatoes. If they have tough skin, chop them after removing the skin or grate them. Add tomatoes, salt and cook on medium heat for three to four minutes, stirring continuously or till oil separates from the masala. Add mashed peas, cauliflower, potatoes and 2 cups of water. Bring it to boil and simmer for ten minutes, pressing with back of the spoon a few times, till all the vegetables are completely mashed and blended together.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Heat half of the butter in a thick-bottomed pan or a tawa. Slice pav horizontally into two and pan fry in butter for half a minute, pressing two or three times or till pav is crisp and light brown. Garnish the bhaji with chopped coriander leaves, remaining butter and serve hot with pav accompanied with remaining chopped onion and lemon wedges.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>You can add finely chopped onions and green chillies to the bhaji. If you love to have your bhaji more spicy, add an extra teaspoon of red chilli powder while cooking the bhaji. You can also serve this bhaji with chapati or paratha or with plain bread.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>            
+    </body>
+</html>

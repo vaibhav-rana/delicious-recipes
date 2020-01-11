@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Puran Poli Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Puran Poli Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/puran_poli.jpg" alt="Puran Poli">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>1 cup flour</li>
+                        <li>1 1/2 cup chana dal</li>
+                        <li>1 1/2 cup sugar</li>
+                        <li>1/2 cup ghee</li>
+                        <li>3 powdered green cardamom</li>
+                        <li>1/4 cup water</li>
+                        <li>1 pinch salt</li>
+                        <li>refined oil as required</li>
+                        <li>4 tablespoon milk</li>
+                        <li>1/2 teaspoon nutmeg powder</li>
+                        <li>2 teaspoon rice flour</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5DG22fNgd0Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->        
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Puran Poli</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>For preparing this easy Maharashtrian recipe, take a glass bowl and mix flour with water in it. Knead well to make a stiff dough. Cover the dough and keep aside for 1 hour. Now take a pressure cooker and add chana dal and water in it. Put the cooker on the gas and heat it over high flame. Pressure cook the dal and once it's done, strain the excess water.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Transfer the dal in a bowl and allow it to cool. Once the dal has cooled, add it in a pan and heat it over moderate flame. Add sugar along with 1/2 tbsp of ghee. Keep stirring. Cook on low flame till the gram mixture is soft and sticky. Once it's done, turn off the flame and keep the mixture aside.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Now knead the dough again, adding salt, water and oil, little at a time, till the dough becomes pliable. Grind the dal and sugar mixture to a smooth consistency adding a little milk if it is too dry. Add cardamom powder and nutmeg powder.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Now take a lime-sized lump of the dough and a little larger lump of the dal mixture. Roll out two rounds from the dough on a board sprinkled with rice flour, into flat rounds of about 7 inch in diameter.</p>
+            </div>
+            <div class="step">
+                <h3>Step 5</h3>
+                <p>Cover the rolled dough round with the dal mixture, leaving half an inch at the edges, and then cover this with the second round. Roll again over this to seal them together, pinching the edges to seal well. Roll out like a thick chapati.</p>
+            </div>
+            <div class="step">
+                <h3>Step 6</h3>
+                <p>Heat ghee on a hot griddle and put the puran poli on it. Keep pressing and turning it so that it cooks well on both sides. Keep adding ghee all around to brown it evenly without sticking to the griddle. Serve hot and pair with tea or coffee.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>            
+    </body>
+</html>

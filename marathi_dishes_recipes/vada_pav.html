@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Vada Pav Recipe</title>
+    <link rel="stylesheet" type="text/css" href="Vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/style_recipe.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+<body>
+    <section class="recipe-heading">
+        <div class="row">
+            <h1>Vada Pav Recipe</h1>
+        </div>
+    </section>
+    <section class="recipe-img clearfix">
+        <div class="row">
+            <div class="col span-1-of-2 ">
+                <img src="img/vada_pav.jpg" alt="Vada Pav">
+                <div class="video_link">
+                    <a href="#" id="button1">
+                        Watch video  <i class="ion-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <div class="ingredients-heading">
+                    <h2>Ingredients</h2>
+                </div>
+                <div class="ingredients-list">
+                    <ul>
+                        <li>8 pieces pav</li>
+                        <li>4 gm parboiled,mashed potato</li>
+                        <li>1 1/2 cup Refined oil</li>
+                        <li>3/4 cup Gram flour(besan)</li>
+                        <li>1 pinch baking soda</li>
+                        <li>1 pinch salt</li>
+                        <li>1/3 cup water</li>
+                        <li>3 cloves grated garlic</li>
+                        <li>2 small chopped green chilli</li>
+                        <li>1 teaspoon mustard seeds</li>
+                        <li>8 leaves curry leaves</li>
+                        <li>1 pinch asafoetida</li>
+                        <li>1/2 teaspoon powdered turmeric</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--modal for video-->
+     <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/G0mVNvzGjfk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!---->            
+    <section class="how-to">
+        <div class="row">
+            <h2>How to make Vada Pav</h2>
+        </div>
+        <div class="row">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Vada Pav is a simple yet delicious recipe, which can be prepared in just a few minutes, you just need all the ingredients in place to prepare this recipe. Here’s how you can make this dish with some easily available ingredients in your kitchen. Take a pan and heat some oil and put mustard seeds. Once, the seeds start crackling, add the asafoetida and curry leaves and saute for a few seconds.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>Then add grated garlic, chopped green chillies and saute the ingredients for a few seconds.Then, add the potatoes, turmeric powder and salt and mix well. Keep aside to cool. If you want to reduce the cooking time, soak the potatoes in lukewarm water by pricking the peeled potatoes with a fork, this will make the potatoes soft.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Meanwhile, make the batter by combining besan, haldi, baking soda and little water (almost 1/3 cup).When the potato mixture has cooled, make equal sized 8 tikkis. You can give it a desired shape, in Maharashtra the vada is mostly prepared in a round shape.</p>
+            </div>
+            <div class="step">
+                <h3>Step 4</h3>
+                <p>Then take a shallow fry pan and heat oil. Once the oil is hot enough, then dip each tikki/ vada in the batter and then slowly slide it in the hot oil. Deep fry all 8 tikkis in hot oil, till golden brown. Drain on absorbent paper and keep aside. Slice each pav into half and place one vada in each of the pavs. Add some green chutney, spices and fried homemade chili to your Vada Pav to accentuate the taste.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        document.getElementById('button1').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='flex';
+        });
+        document.querySelector('.close').addEventListener('click',
+            function(){
+                document.querySelector('.bg-modal').style.display='none';
+        });
+    </script>                
+    </body>
+</html>
